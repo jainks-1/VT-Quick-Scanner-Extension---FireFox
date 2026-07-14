@@ -1,0 +1,26 @@
+FIREFOX SETUP GUIDE
+Time: ~5 minutes
+
+VirusTotal Setup:
+1. Navigate to "https://www.virustotal.com"
+2. Sign in or create an account in the top right by clicking "Sign in" or "Sign up"
+3. Once logged in, click on your profile in the top right, then on "API Key"
+4. Under the "API Key" box at the top, click the "Copy key to clipboard" button to the right of the blurred out text
+
+Extension Setup:
+1. Unzip the "FireFox Extension - Web Link Checker VT" folder in your computers downloads folder
+2. Browse to "about:debugging" using the FireFox browser search bar
+3. Click on the "This Firefox" tab on the left
+4. Click the "Load Temporary Add-on..." button near the top
+5. Browse to the unzipped "FireFox Extension - Web Link Checker VT" folder in your downloads folder
+6. Select the "manifest.json" file, then click "open" in the bottom left
+7. In your browser, click the puzzle piece icon in the top right
+8. Right-click on the "Quick Link Safety Checker" and click "Pin to toolbar"
+9. Click on the extension (has a magnifying glass icon) on the top right of the toolbar
+10. Paste in your API key from step 4 of the VirusTotal setup
+11. Click "save" then "ok"
+
+Using The Extension
+1. Right click on any link you can see on a webpage in front of you, then "Check link safety with VirusTotal"
+2. Copy any link, then click the magnifying glass in the toolbar and paste it in the provided box, then click the "check link" button
+3. If you feel that further investigation is required after checking a link, click the "View full report" button to be taken to the full VirusTotal report on that URL

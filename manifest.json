@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Quick VirusTotal Search & Safety Checker",
+  "version": "2.0",
+  "description": "Quickly search URLs, domains, IP addresses, or file hashes using your VirusTotal API key.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://www.virustotal.com/"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
